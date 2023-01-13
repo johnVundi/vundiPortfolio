@@ -1,210 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--this is a comment-->
-    <head>
-        <link rel="stylesheet" href="/css/style.css">
-        <title>Portfolio for Vundi</title>
-    </head>
-    <body>
-       
-        <!-- about section-->
-        
-        <section>
-            <img class="bgimage" src='images/wallpaper.jpg'>
-            <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-                <div class="container">
-                    <a class="navbar-brand" href="#">John</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#services">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#portfolio">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+     <!-- linking css file -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Vundi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  My Projects
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Project 1</a></li>
+                  <li><a class="dropdown-item" href="#">Project 2</a></li>
+                  <li><a class="dropdown-item" href="#">Project 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+         <!-- main banner -->
+  <section class=" text-light p-5 text-center text-sm-start" style="background-image: url(images/wallpaper1.jpeg);" class="text-center  p-5">
+    <div class="container">
+      <div class="d-flex row ">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text" >
+          <h1 class="hero_title text-center">Hi, I'm Vundi </h1>
+          <h1 class="text-warning text-center">Software engineer </h1>
+        </div>
+        <img class="image-fluid w-100 p-5 text-center" src="images/Premium Vector _ Creation responsive internet website for multiple platform.jpeg" alt="">
+      </div>
+    </div>
 
-        </section>
-        <section id="home">
-            
-            <div class="container-fluid">
-                <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <h2 class="hero_title">Hi, it's me John</h2>
-                    <p class="hero_desc">I am a professional Web Developer</p>
-                </div>
-                </div>
-            </div>
-        </section>
-    <section id="services">
-        <div class="container">
-            <h1 class="text-center">Services</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class="fas servicesIcon fa-clock"></i>
-                            <h4 class="card-title mt-3">Website Development</h4>
-                            <p class="card-text mt-3">Web development is what I want to fully understand by the end of this course.
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-layer-group'></i>
-                            <h4 class="card-title mt-3">Problem solving</h4>
-                            <p class="card-text mt-3">It is a gradual process and by the end there is light.
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-shield-alt'></i>
-                            <h4 class="card-title mt-3">More to come</h4>
-                            <p class="card-text mt-3">indeed I will be back to update this particular area.
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-    
-</section>
-<section id="about">
+  </section>
+  <section id="about" style="background-image: url(images/wallpaper3.jpeg);" class="text-center  p-5" >
     <div class="container mt-4 pt-4">
-        <h1 class="text-center">About Me</h1>
+        <h1 class="text-center text-light">About Me</h1>
         <div class="row mt-4">
-            <div class="col-lg-4">
-                <img src="images/vundi.jpg" class= "imageAboutPage" alt="">
+            <div class="col-md">
+                <img src="images/vundi.jpg " class= "imageAboutPage rounded mx-auto d-block img-fluid w-50" alt="">
             </div>
-            <div class="col-lg-8">
-                <p> It is an honour that i am beginning this journey. Been on a spree of trial and error and this is what I came up with. I trust it will get better.
+
+            <div class="col-lg-8 text-light">
+                <p> I'm passionate about bringing both the technical and visual aspects of digital products to life. User experience, beautiful pixels and writing clean accessible, human code matters to me. I sweat the details. And as a follower of John Maeda’s <span class="text-warning">Laws Of Simplicity</span>, I agree that less is more.
                 </p>
-                <div class="row mt-3">
-                    <div class="col-md-6">
-                        <ul>
-                            <li>Name: John Vundi</li>
-                            
-                            <li>Occupation: Web Developer</li>
+                <p>I have a <b> BA in Information Technology</b> from <span class="text-warning">Pioneer International University</span> , a <b> Certificate of Web Development</b> Immersive from <span class="text-warning"> Moringa school.</span>
 
-                        </ul>
-                    </div>
-                   
-                </div>
+                </p>
+                <p>I'm happiest when I'm creating, learning, exploring and thinking about how to make things better.
+
+                </p>
                
-            </div>
-        </div>
-</section>
-
-<section id="portfolio">
-    <div class="container mt-3">
-        <h1 class="text-center">Portfolio</h1>
-        <div class="row">
-            <div class="col-lg-4 mt-4">
-                <div class="card">
-                    <img   alt="images/youtube.jpg" style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">YouTube Clone</h4>
-                        <p class="card-text"> At the end I want to know how I can Achieve cloning YouTube</p>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-success">Link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 mt-4">
-                <div class="card portfolioContent">
-                    <img class="card-img-top"  alt="Card image" style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">Utopia</h4>
-                        <p class="card-text">This a problem solving app that can be used to analyse situation and give a relevant solution.</p>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-success">Link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 mt-4">
-                <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">Kinship</h4>
-                        <p class="card-text">Kinship is an app I want to build where someone can trace his/her family to the ancestors</p>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-success">Link</a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
 
+  <!-- services -->
+  <!-- <section class=" p-5" style="background-image: url(images/wallpaper4.jpeg);" class="text-center  p-5"> -->
+    <section >
 
-</section>
-
-<!-- contact section-->
-<section id="contact">
-    <div class="container mt-3 contactContent">
-        <h1 class="text-center">Contact Me</h1>
-
-        <div class="row mt-4">
-            <div class="col-lg-6">
-                <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-                <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
-                    <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
-                    </div>
-                    <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
-                    <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
-                    </style>
-                </div>       
-               
+      <div class="container bg-info p-5 rounded-4">
+    <div class="text-light p-5 text-center row">
+      <h6>SKILLS & TOOLS</h6>
+      <h4>My Toolbox & Things I Can Do</h4>
+        <p>The skills, tools and technologies I use to bring your products to life:</p>
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-sm-2">
+              <img src="images/html.png" alt="Image 1" width="50" height="50" class="img-fluid"><figcaption>HTML5</figcaption>
             </div>
-
-            <div class="col-lg-6">
-                <!-- form fields -->
-                <form>
-                    <input type="text" class="form-control form-control-lg" placeholder="Name">
-                    <input type="email" class="form-control mt-3" placeholder="Email">
-                    <input type="text" class="form-control mt-3" placeholder="Subject">
-                    <div class="mb-3 mt-3">
-                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                    </div>
-                </form>
-                <button type="button" class="btn btn-success mt-3">Contact Me</button>   
-            </div>  </div>
+            <div class="col-sm-2">
+              <img src="images/CSS Logo.png" alt="Image 2" width="50" height="50" class="img-fluid"><figcaption>CSS</figcaption>
+            </div>
+            <div class="col-sm-2">
+              <img src="images/JavaScript.png" alt="Image 3" width="50" height="50" class="img-fluid"><figcaption>JavaScript</figcaption>
+            </div>
+            <div class="col-sm-2">
+              <img src="images/Visual Studio Code Sticker.jpeg" alt="Image 3" width="50" height="50" class="img-fluid"><figcaption>VS studio</figcaption>
+            </div>
+            <div class="col-sm-2">
+              <img src="images/github.png" alt="Image 3" width="50" height="50" class="img-fluid"><figcaption>Github</figcaption>
+            </div>
+          </div>
+          <div class="col-2">
+            <img src="images/React.jpeg" alt="Image 3" width="50" height="50" class="img-fluid"><figcaption>React</figcaption>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    <div class="text-dark p-5 text-center row">
+      <h4 class="text-light">My Projects</h4>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 </section>
-<section>
-    <div class="container-fluid">
-        <!-- social media icons -->
-        <div class="social-icons mt-4">
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+  <!-- contact section -->
+  <section class="p-5 bg-info ">
+    <div class="container">
+      <div class="row g-4 d-flex justify-content-around"> 
+        <div class="col-md-4">
+          <h1 class="text-center">Contact Me</h1>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>  
         </div>
+        <div class="col-md-4">
+          <h1 class="text-center">Social Media</h1>
+          <div class="d-flex justify-content-around">
+            <a href="https://www.facebook.com/johnvundy.todler?mibextid=ZbWKwL" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/JonVundi?t=C7cEpID8S-KD9vl17HvICg&s=09" class="fa fa-twitter"></a>
+            <a href="www.linkedin.com/in/john-vundi-b37336245" class="fa fa-linkedin"></a>
+          </div>
+
+  </section>
+  <!-- footer -->
+  <footer class="p-3 bg-dark text-light text-center">
+    <div class="container">
+      <p class="lead">All rights reserved by Vundi &copy; 2023</p>
     </div>
-</section>
-<script src="js/index.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
-    </body>
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</body>
 </html>
